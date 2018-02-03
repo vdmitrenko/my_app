@@ -21,7 +21,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'App',
       favicon: false,
       template: './src/index.html'
     }),
