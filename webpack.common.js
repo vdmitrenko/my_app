@@ -4,7 +4,7 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    app: './src/app.js'
+    app: './src/app.jsx'
   },
   output: {
     filename: '[name].bundle.js',
@@ -13,7 +13,7 @@ module.exports = {
   module: {
     rules: [
       { 
-        test: /\.js$/, 
+        test: /\.jsx$/, 
         exclude: /node_modules/, 
         loader: "babel-loader" 
       }
